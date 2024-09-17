@@ -1,15 +1,18 @@
-print("Todays Temperature")
+def todaysTemperature(temperature):
+    temperature = input("Today's Temperature: ")
 
-def todaysTemperature():
-    if todaysTemperature < 32:
+    if temperature < 32:
         print("Freezing")
-    elif todaysTemperature < 55:
+    elif temperature < 55:
         print("Pleasant")    
-    elif todaysTemperature < 73:
+    elif temperature < 73:
         print("Getting Warmer")
-    elif todaysTemperature > 101:
-        print("Very Hot")
+    elif temperature > 101:
+        print("Hot")
+    if temperature >= 101:
+        print("Very")     
     else:
         print("Please put a valid temperature")   
-todaysTemperature()     
+
+todaysTemperature(75)     
 

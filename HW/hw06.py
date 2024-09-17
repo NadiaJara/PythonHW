@@ -10,7 +10,7 @@ def todaysTemperature(temperature):
     elif temperature > 101:
         print("Hot")
     if temperature >= 101:
-        print("Very")     
+        print("Very Hot")     
     else:
         print("Please put a valid temperature")   
 
